@@ -613,7 +613,7 @@ table.button.google table td {
 
 .bg-blue {
   background-color: #194f77;
-  background-image: url(assets/img/bg.jpg); }
+  background-image: url(https://pashawol.github.io/0016rdv/dist/assets/img/bg.jpg); }
   .bg-blue h4 {
     color: #ffffff;
     padding-top: 20px;
@@ -621,7 +621,7 @@ table.button.google table td {
 
 .head-block {
   background-color: #000;
-  background-image: url(assets/img/head-bg-gr.jpg);
+  background-image: url(https://pashawol.github.io/0016rdv/dist/assets/img/head-bg-gr.jpg);
   background-size: cover;
   background-position: bottom center; }
   .head-block h2 {
