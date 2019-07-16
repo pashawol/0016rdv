@@ -41,9 +41,15 @@ html,
 
 .header .container {
   background: transparent;
-} .button{
-  width: 320px;
-   
+
+
+}
+a.btn, 
+.button{
+  max-width: 378px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   &.warning{
     a{
       
@@ -144,22 +150,19 @@ html,
     padding: 0;
 
   }
-  ul{
-    // padding-left: 0;
-    padding: 0;
-    margin: 0;
+  .ul{
+    
     padding-top: 280px;
   }
-  li{
-    list-style-type: none;
-    display: inline-block;
+  .li{
+    list-style-type: none; 
     color: #ffffff;
     // margin-right: 15px;
     padding-right: 15px;
   }
- .button.warning{
+ .btn{
     margin-top: 20px;
-    margin-bottom: -40px;
+    margin-bottom: -80px;
   }
 }
 body{
@@ -169,11 +172,11 @@ body{
 }
 .programm{
 
-  ul{
+  .ul{
     list-style-type: none;
     padding-left: 0;
     margin-bottom: 30px;
-    li{
+    .li{
       margin-bottom: 20px;
       position: relative;
       // padding-left: 30px;
@@ -249,7 +252,7 @@ ul{
   list-style-type: none;
 }
 .articals{
-  li{
+  .li{
     margin-bottom: 47px;
     max-width: 500px;
     list-style-type: none;
@@ -292,12 +295,16 @@ ul{
 .h70{
   height: 70px;
 }
-
+.bg-blue{
+  // padding-left: 20px;
+  padding: 20px;
+  // padding-right: 20px;
+}
 .footer {
-  li{
+  .footer-li{
     padding-left: 0;
   }
-  li a{
+  .footer-li a{
     // display: inline-flex;
     color: #ffffff;
     display: inline-block;
