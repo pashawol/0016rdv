@@ -1,0 +1,298 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #f3f3f3 !important;
+}
+
+.container.header {
+  background: #f3f3f3;
+}
+
+.body-drip {
+  border-top: 8px solid #663399;
+}
+.img-header{
+  margin-left: auto;
+  margin-right: auto;
+}
+// Full Width Headers
+.header {
+  // background: #8a8a8a;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.header .columns {
+  padding-bottom: 0;
+}
+
+.header p {
+  color: #fff;
+  padding-top: 15px;
+}
+
+.header .wrapper-inner {
+  padding: 20px;
+}
+
+.header .container {
+  background: transparent;
+}
+table.button{
+  width: 320px;
+   
+  &.warning{
+    a{
+      
+     
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
+  border-radius: 36px;
+}
+
+table.button.warning:hover table tr td a, table.button.warning:active table tr td a, table.button.warning table tr td a:visited, table.button.warning.tiny:hover table tr td a, table.button.warning.tiny:active table tr td a, table.button.warning.tiny table tr td a:visited, table.button.warning.small:hover table tr td a, table.button.warning.small:active table tr td a, table.button.warning.small table tr td a:visited, table.button.warning.large:hover table tr td a, table.button.warning.large:active table tr td a, table.button.warning.large table tr td a:visited{
+          
+  color: #000000;
+}
+
+table.button table td,
+table.button table td a{
+  text-align: center;
+  border-radius: 36px;
+  border: none; 
+}
+table.button.warning table td a{
+  box-shadow:  0 10px 10px rgba($color: #edba3f, $alpha: .6);
+
+    }
+table.button.warning table td,
+table.button.warning table td a{
+  color: #000000; 
+   
+  background-image: linear-gradient(to left, #f4db4f 0%, #edba3f 100%);
+}
+table.button.primary table td a{
+  box-shadow:  0 10px 10px rgba($color: #247ca8, $alpha: .6);
+
+    }
+table.button.primary{
+
+  color: #ffffff;
+}
+table.button.primary table td,
+table.button.primary table td a{
+  background-image: linear-gradient(to right, #247ca8 0%, #24badf 100%);
+}
+
+table.button table td a{
+          padding-top: 20px;
+          padding-bottom: 20px;
+          display: block;
+        }
+
+        // Social Media
+        table.button.facebook table td {
+          background: #3B5998 !important;
+          border-color: #3B5998;
+}
+
+table.button.twitter table td {
+  background: #1daced !important;
+  border-color: #1daced;
+}
+
+table.button.google table td {
+  background: #DB4A39 !important;
+  border-color: #DB4A39;
+}
+
+.wrapper.secondary {
+  background: #f3f3f3;
+}
+
+
+.bg-blue{
+  background-color: #194f77;
+  background-image: url(../assets/img/bg.jpg);
+  h4{
+  
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+  }
+}
+
+.head-block{
+  background-color: #000;
+  background-image: url(../assets/img/head-bg-gr.jpg);
+  background-size: cover;
+  background-position: bottom center;
+  h2{
+    
+    color: #ffffff;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  h5{ 
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    // margin-bottom: 0;
+    // padding-bottom: 0;
+    margin: 0;
+    padding: 0;
+
+  }
+  ul{
+    // padding-left: 0;
+    padding: 0;
+    margin: 0;
+    padding-top: 280px;
+  }
+  li{
+    list-style-type: none;
+    display: inline-block;
+    color: #ffffff;
+    // margin-right: 15px;
+    padding-right: 15px;
+  }
+  table.button.warning{
+    margin-top: 20px;
+    margin-bottom: -40px;
+  }
+}
+
+
+ol{
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 30px;
+  li{
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 30px;
+    font-size: 18px;
+  }
+
+}
+.counter{
+  color: $primary-color;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+h4.section-title{
+  font-weight: bold;
+}
+
+.top-line{
+  background-color: #efefef;
+  span{ 
+    display: block;
+    width: 53px;
+    height: 3px;
+    background-color: #247ca8;
+  }
+  margin-bottom: 30px;
+}
+ 
+
+.text-primary{
+  color: $primary-color;
+}
+
+.text-wrap{
+  // Style for "подложка"
+// width: 517px;
+// height: 199px;
+position: relative;
+z-index: 1;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-right: 20px;
+// padding: 20px 10px;
+padding-left: 0;
+ 
+&__bg{
+  position: absolute;
+  z-index: -1;
+  border-radius: 10px;
+  background-color: #efefef;
+  width: 120%;
+  right: 0;
+  top: 0;
+  height: 100%;
+  
+}
+}
+th.first{
+position: relative;
+z-index: 2;
+}
+ul{
+  padding-left: 0;
+  list-style-type: none;
+}
+.articals{
+  li{
+    margin-bottom: 47px;
+  }
+  a{
+    position: relative;
+    text-decoration: underline;
+    color: #000000;
+    font-size: 18px;
+    display: block;
+    position: relative;
+    padding-left: 80px;
+    max-width: 500px;
+    img{
+      position: absolute;
+      left: 0;
+      top: 50%;
+      // mask-type: 
+      margin-top: -25px;
+    }
+  }
+}
+
+.footer {
+  
+  li a{
+    // display: inline-flex;
+    color: #ffffff;
+    display: inline-block;
+    margin-bottom: 10px;
+    // font-size: 18px;
+    
+  }
+      img{
+        display: inline-block;
+        flex-shrink: 0;
+        margin-right: 10px;
+      }
+
+      p{
+
+        color: #ffffff;
+        font-size: 14px;
+        a{
+    
+          // font-size: 18px;
+          color: #ffffff;
+        }
+        line-height: 1.8;
+      }
+}
+.tdu{
+  text-decoration: underline;
+}
