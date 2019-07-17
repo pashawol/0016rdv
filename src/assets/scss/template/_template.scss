@@ -21,7 +21,7 @@ html,
 }
 // Full Width Headers
 .header {
-  // background: #8a8a8a;
+  background: #8a8a8a;
   background-color: #ffffff;
   text-align: center;
 }
@@ -32,7 +32,8 @@ html,
 
 .header p {
   color: #fff;
-  padding-top: 15px;
+  // padding-top: 15px;
+  margin: 15px;
 }
 
 .header .wrapper-inner {
@@ -116,8 +117,7 @@ a.btn,
 
 
 .bg-blue{
-  background-color: #194f77;
-  background-image: url(https://pashawol.github.io/0016rdv/dist/assets/img/bg.jpg);
+  background: url(https://pashawol.github.io/0016rdv/dist/assets/img/bg.jpg);
   h4{
   
     color: #ffffff;
@@ -128,10 +128,14 @@ a.btn,
 }
 
 .head-block{
-  background-color: #000;
-  background-image: url(https://pashawol.github.io/0016rdv/dist/assets/img/head-bg-gr.jpg);
+  // background-color: #000;
+  background: url(https://pashawol.github.io/0016rdv/dist/assets/img/head-bg-gr.jpg);
   background-size: cover;
   background-position: bottom center;
+  padding: 20px;
+  .btn{
+    margin-top: -40px;
+  }
   h2{
     
     color: #ffffff;
@@ -152,17 +156,18 @@ a.btn,
   }
   .ul{
     
-    padding-top: 280px;
+    margin-top: 280px;
   }
   .li{
     list-style-type: none; 
     color: #ffffff;
     // margin-right: 15px;
-    padding-right: 15px;
+    margin-right: 15px;
   }
  .btn{
-    margin-top: 20px;
-    margin-bottom: -80px;
+   margin-top: 20px;
+    // margin-top: -50px;
+    margin-bottom: -90px;
   }
 }
 body{
@@ -300,23 +305,24 @@ ul{
   padding: 20px;
   // padding-right: 20px;
 }
+.footer-li a{
+  // display: inline-flex;
+  color: #ffffff;
+  display: inline-block;
+  margin-bottom: 10px;
+  // font-size: 18px;
+  img{
+    display: inline-block;
+    flex-shrink: 0;
+    margin-right: 10px;
+  }
+  
+}
 .footer {
+  color: #ffffff;
   .footer-li{
     padding-left: 0;
   }
-  .footer-li a{
-    // display: inline-flex;
-    color: #ffffff;
-    display: inline-block;
-    margin-bottom: 10px;
-    // font-size: 18px;
-    
-  }
-      img{
-        display: inline-block;
-        flex-shrink: 0;
-        margin-right: 10px;
-      }
 
       p{
 
