@@ -117,6 +117,7 @@ a.btn,
 
 
 .bg-blue{
+  background-color: #247ca8;
   background: url(https://pashawol.github.io/0016rdv/dist/assets/img/bg.jpg);
   h4{
   
@@ -128,13 +129,13 @@ a.btn,
 }
 
 .head-block{
-  // background-color: #000;
+  background-color: #929292;
   background: url(https://pashawol.github.io/0016rdv/dist/assets/img/head-bg-gr.jpg);
   background-size: cover;
   background-position: bottom center;
-  padding: 20px;
+  padding: 20px 20px 0 20px;
   .btn{
-    margin-top: -40px;
+    // margin-top: -40px;
   }
   h2{
     
@@ -154,9 +155,14 @@ a.btn,
     padding: 0;
 
   }
+
+  .size-280{
+    height: 1px;
+    margin-bottom: 280px;
+
+  }
   .ul{
     
-    margin-top: 280px;
   }
   .li{
     list-style-type: none; 
@@ -167,7 +173,7 @@ a.btn,
  .btn{
    margin-top: 20px;
     // margin-top: -50px;
-    margin-bottom: -90px;
+    // margin-bottom: -90px;
   }
 }
 body{
@@ -203,18 +209,15 @@ h4.section-title{
 }
 
 .top-line{
-  background-color: #efefef;
+  // background-color: #efefef;
+  img{
+    width: 100%;
+  }
   span{ 
   }
   margin-bottom: 30px;
 }
-.bg-line{
-  
-  display: block;
-  width: 53px;
-  height: 3px;
-  background-color: #247ca8;
- }
+ 
 
 .text-primary{
   color: $primary-color;
@@ -309,14 +312,17 @@ ul{
   // display: inline-flex;
   color: #ffffff;
   display: inline-block;
-  margin-bottom: 10px;
+  // margin-bottom: 10px;
   // font-size: 18px;
   img{
     display: inline-block;
     flex-shrink: 0;
-    margin-right: 10px;
   }
-  
+
+  // margin-right: 10px;
+  strong{
+    padding-left: 10px;
+  }
 }
 .footer {
   color: #ffffff;
